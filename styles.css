@@ -5,6 +5,18 @@
     scroll-behavior: smooth;
   }
 
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+  }
+
+h1,
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+    text-align: center;
+  }
+
 .nav {
   display: grid;
   justify-content: flex-end;
@@ -12,12 +24,7 @@
   width: 100%;
 }
 
-h1,
-h2 {
-  font-family: 'Amatic SC', cursive;
-  font-weight: bolder;
-  text-align: center;
-}
+
 
 ul {
  display: inline-flex;
