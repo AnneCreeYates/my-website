@@ -6,7 +6,7 @@
   }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Amatic SC', sans-serif;
   font-size: 1.8rem;
   }
 
@@ -32,7 +32,12 @@ img {
   height: 2.5em;
 }
 
-
+.nav-link a:hover {
+  display: grid;
+  font-size: 1.5em;
+  color: #670f8c;
+  font-weight: bolder;
+}
 
 ul {
  display: inline-flex;
@@ -49,6 +54,13 @@ li {
 a {
   color: whitesmoke;
   text-decoration: none;
+ 
+}
+
+.welcome-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   
 
 }
